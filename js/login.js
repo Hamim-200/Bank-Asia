@@ -17,7 +17,7 @@ document.getElementById('btn-submit').addEventListener('click', function () {
     console.log(email, password)
 
     // step-4 : verify email and pass
-    if (email === 'hamim@gmail.com' && password === 'Hello') {
+    if (email === 'hamim@gmail.com' && password === '1234') {
         window.location.href = 'bank.html';
 
     }
